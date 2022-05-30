@@ -33,7 +33,7 @@ go test -v integration_test.go
 ## Submitting Tasks
 
 ```bash
-curl <your druid host>/druid/indexer/v1/task \
+curl <your gateway host>/tasks/task \
     -X POST \
     -F spec.json=@<path to your index spec> \
     -F <filename1>=@<path to first file to ingest> \
