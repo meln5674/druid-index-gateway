@@ -1,2 +1,4 @@
 *.swp
 tmp/
+./main
+./gateway
